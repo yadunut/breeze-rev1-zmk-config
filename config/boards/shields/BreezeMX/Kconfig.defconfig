@@ -1,0 +1,17 @@
+
+if SHIELD_BREEZE_MX_LEFT
+
+config ZMK_KEYBOARD_NAME
+	default "MX Breeze"
+
+config ZMK_SPLIT_BLE_ROLE_CENTRAL
+	default y
+
+endif
+
+if SHIELD_BREEZE_MX_LEFT || SHIELD_BREEZE_MX_RIGHT
+
+config ZMK_SPLIT
+	default y
+ 
+endif
