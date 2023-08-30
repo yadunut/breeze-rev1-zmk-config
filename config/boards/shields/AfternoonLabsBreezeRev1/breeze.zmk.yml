@@ -1,6 +1,6 @@
 file_format: "1"
-id: breeze
-name: Breeze
+id: afternoon-labs-breeze
+name: Afternoon Labs Breeze
 type: shield
 url: https://afternoonlabs.com/breeze/
 requires:

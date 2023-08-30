@@ -1,15 +1,15 @@
 
-if SHIELD_BREEZE_MX_LEFT
+if SHIELD_BREEZE_REV1_LEFT
 
 config ZMK_KEYBOARD_NAME
-	default "MX Breeze"
+	default "Breeze Keyboard"
 
 config ZMK_SPLIT_BLE_ROLE_CENTRAL
 	default y
 
 endif
 
-if SHIELD_BREEZE_MX_LEFT || SHIELD_BREEZE_MX_RIGHT
+if SHIELD_BREEZE_REV1_LEFT || SHIELD_BREEZE_REV1_RIGHT
 
 config ZMK_SPLIT
 	default y

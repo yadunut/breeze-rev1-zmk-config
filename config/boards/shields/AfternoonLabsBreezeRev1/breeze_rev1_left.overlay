@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-#include "breeze_mx.dtsi"
+#include "breeze_rev1.dtsi"
 
 &kscan0 {
 		row-gpios
